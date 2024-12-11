@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ecommerce-compare-frontend/static/css/main.b9e87bd3.css",
+    "main.js": "/ecommerce-compare-frontend/static/js/main.92527dbe.js",
+    "index.html": "/ecommerce-compare-frontend/index.html",
+    "main.b9e87bd3.css.map": "/ecommerce-compare-frontend/static/css/main.b9e87bd3.css.map",
+    "main.92527dbe.js.map": "/ecommerce-compare-frontend/static/js/main.92527dbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9e87bd3.css",
+    "static/js/main.92527dbe.js"
+  ]
+}

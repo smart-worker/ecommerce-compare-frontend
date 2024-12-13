@@ -24,7 +24,7 @@ const App = () => {
   const handleFlipkartSearch = async () => {
     setIsFlipkartLoading(true);
     try {
-      const response = await fetch(`${API_URL}flipkart/${inputValue}`, {
+      const response = await fetch(`${API_URL}flipkart?key=${inputValue}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -42,7 +42,7 @@ const App = () => {
   const handleAmazonSearch = async () => {
     setIsAmazonLoading(true);
     try {
-      const response = await fetch(`${API_URL}amazon/${inputValue}`, {
+      const response = await fetch(`${API_URL}amazon?key=${inputValue}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
